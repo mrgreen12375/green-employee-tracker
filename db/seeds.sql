@@ -1,3 +1,4 @@
+--setup seeds file to add data information to schema
 INSERT INTO department (name)
 VALUES
     ("Engineering"),

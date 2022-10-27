@@ -1,7 +1,8 @@
+//setup connections
 const inquirer = require('inquirer');
 const mysql = require('./config/connection');
 require('console.table');
-
+//setup objects for the add department, employee, role, and menu questions
 const addDepartmentQuestions = [
     {
         type: 'input',
@@ -51,7 +52,7 @@ const menuQuestions = [
                   'Quit']
     }
 ]
-
+// setup funtions to view and add department, roles, and employees
 const addDepartment = () =>{
     inquirer
         .prompt(addDepartmentQuestions)
@@ -229,7 +230,7 @@ const updateEmployeeRole = () =>{
         });
     });
 };
-
+//setup switch case to run function based of users selection of the list options
 const listOptions = (response) =>{
     switch(response.menuChoice){
         case 'View All Employees':
@@ -259,7 +260,7 @@ const listOptions = (response) =>{
             break;
     }
 }
-
+//setup employee manager graphic at the top of the terminal
 const employeeGraphic = () =>{
     console.log(" _____                 _                       \r\n| ____|_ __ ___  _ __ | | ___  _   _  ___  ___ \r\n|  _| | \'_ ` _ \\| \'_ \\| |\/ _ \\| | | |\/ _ \\\/ _ \\\r\n| |___| | | | | | |_) | | (_) | |_| |  __\/  __\/\r\n|_____|_| |_| |_| .__\/|_|\\___\/ \\__, |\\___|\\___|\r\n                |_|            |___\/           \r\n __  __                                   \r\n|  \\\/  | __ _ _ __   __ _  __ _  ___ _ __ \r\n| |\\\/| |\/ _` | \'_ \\ \/ _` |\/ _` |\/ _ \\ \'__|\r\n| |  | | (_| | | | | (_| | (_| |  __\/ |   \r\n|_|  |_|\\__,_|_| |_|\\__,_|\\__, |\\___|_|   \r\n                          |___\/           \r\n")
 }

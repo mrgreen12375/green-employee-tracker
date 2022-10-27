@@ -1,3 +1,4 @@
+// setup connection and user information
 const mysql = require('mysql2');
 
 

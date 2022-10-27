@@ -1,3 +1,4 @@
+--setup schema file to create table for department, role, employee, title, salary, and manager
 DROP DATABASE IF EXISTS employee_db;
 CREATE DATABASE employee_db;
 
