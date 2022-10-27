@@ -254,7 +254,7 @@ const listOptions = (response) =>{
             addDepartment();
             break;
         case 'Quit':
-            console.log('I am Quitting now');
+            console.log('Complete');
             mysql.end();
             break;
     }
