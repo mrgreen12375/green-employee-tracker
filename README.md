@@ -11,7 +11,7 @@ This project is to create an employee tracker using the command terminal. This w
 - [Questions](#Questions)
 - [Diployment Links](#Questions)
 ## Mock-up
-![alt green team website](./src/green-team-mockup.png)
+![alt green employee tracker app](mock-up.jpg)
 ## Installation
 npm install
 
@@ -31,6 +31,6 @@ GitHub Username: [mrgreen12375](https://github.com/mrgreen12375)
 
 Email Address: [ste2144105@gmail.com](ste2144105@gmail.com)
 ## Deployment Links
-Screencastify: https://drive.google.com/file/d/1dlw3_pU60sS7NXjp5brb5RcdLK49NlAD/view
+Screencastify: https://drive.google.com/file/d/1sHQ2o0dyDrQp-DhCHNIpf_eTgqVM3aTs/view
 
 GitHub Repo: https://github.com/mrgreen12375/green-employee-tracker
