@@ -39,7 +39,7 @@ const addRoleQuestions = [
 const menuQuestions = [
     {
         type:'list',
-        name: 'listChoice',
+        name: 'menuChoice',
         message: 'What would you like to do?',
         choices: ['View All Employees', 
                   'Add Employee',
