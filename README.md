@@ -31,6 +31,6 @@ GitHub Username: [mrgreen12375](https://github.com/mrgreen12375)
 
 Email Address: [ste2144105@gmail.com](ste2144105@gmail.com)
 ## Deployment Links
-Screencastify:  https://drive.google.com/file/d/1dlw3_pU60sS7NXjp5brb5RcdLK49NlAD/view
+Screencastify: https://drive.google.com/file/d/1dlw3_pU60sS7NXjp5brb5RcdLK49NlAD/view
 
 GitHub Repo: https://github.com/mrgreen12375/green-employee-tracker
