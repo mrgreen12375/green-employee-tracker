@@ -1,7 +1,6 @@
 //setup connections
 const inquirer = require('inquirer');
 const mysql = require('./config/connection');
-require('console.table');
 //setup objects for the add department, employee, role, and menu questions
 const addDepartmentQuestions = [
     {
