@@ -21,6 +21,8 @@ mysql2
 
 console.table
 ## Usage
+mysql -u root -p
+In mysql source db/schema.sql then source db/seeds.sql
 npm start
 ## Contributing
 Steven Green
